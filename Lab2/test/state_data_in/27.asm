@@ -1,0 +1,3 @@
+.ORIG x1234
+ LSHF R2, R3,#4
+.END

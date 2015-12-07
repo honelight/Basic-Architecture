@@ -1,0 +1,5 @@
+.ORIG x1234
+LDW R0, R6, #1
+.FILL xDE02	
+.FILL x8001	
+.END

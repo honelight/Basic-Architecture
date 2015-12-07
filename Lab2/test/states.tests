@@ -1,0 +1,36 @@
+1	ADD R1, R2, R3	1
+2	ADD R1, R2, x5	1
+3	ADD R1, R1, x-5	1
+4	ADD R1, R1, x-1	1
+5	AND R0, R5, R6	1
+6	AND R3, R6, #-6	1
+7	XOR R1, R2, R3	1
+8	XOR R1, R2, xa	1
+9	NOT R1, R1	1
+10	NOT R7, R1	1
+11	TRAP x25	1
+12	TRAP 255	1
+13	STW R7, R6, #0	1
+14	STB R7, R6, #0	1
+15	STW R7, R6, #1	1
+16	STB R7, R6, #1	1
+17	LDW R0, R6, #0	1
+18	LDB R0, R6, #0	1
+19	LDW R0, R6, #1	1
+20	LDB R0, R6, #1	1
+21	LEA R2, label	1
+22	JMP R2	1
+23	JSRR R2	1
+24	JSRR R7	1
+25	JSR  label	1
+26	RET	1
+27	LSHF R2, R3, #4	1
+28	LSHF R2, R3, #0	1
+29	RSHFL R2, R6, #4	1
+30	RSHFA R2, R6, #4	1
+31	BRn label	1
+32	BRz label	2
+33	BRp label	2
+34	BRnp label	2
+35	BRzp label	2
+36	BR label	2

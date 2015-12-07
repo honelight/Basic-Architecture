@@ -1,0 +1,4 @@
+.ORIG x1234
+NOT R7, R1
+.END
+

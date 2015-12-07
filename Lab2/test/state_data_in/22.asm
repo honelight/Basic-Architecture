@@ -1,0 +1,3 @@
+.ORIG x1234
+JMP R2
+.END

@@ -1,0 +1,16 @@
+
+Current register/bus values :
+-------------------------------------
+Instruction Count : 10
+PC                : 0x0000
+CCs: N = 1  Z = 0  P = 0
+Registers:
+0: 0xdefa
+1: 0xdefa
+2: 0xfbdf
+3: 0xfef7
+4: 0xffde
+5: 0xffef
+6: 0xfffe
+7: 0x3014
+

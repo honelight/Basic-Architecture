@@ -1,0 +1,12 @@
+	.ORIG x4000
+MAIN  AND R0, R0, #0
+	LEA R2, L0
+	JSRR R2
+  LEA R1, A
+  LDW R1, R1, #0
+  STW R0, R1, #0
+	HALT
+L0	ADD R0, R0, #5
+	RET
+A   .FILL x3000
+	.END

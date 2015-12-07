@@ -1,0 +1,34 @@
+You are allowed to submit only predictor.cc files. So, any changes 
+you make to the other files will not be reflected in our setup.
+
+
+To compile:  
+============
+
+type make
+
+
+To run for one trace:
+=====================
+
+./predictor <type>  <TRACE_FILE_NAME>  
+
+Type can be:
+0: NEVER TAKEN
+1: ALWAYS TAKEN
+2: LAST TIME (Already Implemented)
+3: TWO BIT COUNTER (Need to Implement)
+4: TWO LEVEL PRED (Need to Implement)
+
+
+To run All three traces:
+============================
+Read runall.sh, then do
+
+./runall.sh
+
+and wait for the message "All Done".
+"grep PERCENTAGE *.res"
+
+
+

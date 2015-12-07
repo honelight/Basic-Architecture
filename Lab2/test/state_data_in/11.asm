@@ -1,0 +1,3 @@
+.ORIG x1234
+TRAP x25
+.END

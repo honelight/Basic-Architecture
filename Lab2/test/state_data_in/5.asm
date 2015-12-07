@@ -1,0 +1,3 @@
+.ORIG x1234
+AND R0, R5, R6
+.END

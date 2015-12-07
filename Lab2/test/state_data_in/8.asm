@@ -1,0 +1,3 @@
+.ORIG x1234
+ XOR R1, R2, xa
+.END
